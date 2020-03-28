@@ -2,16 +2,34 @@
 <html>
   <head>
     <title>Caricaturas Web</title>
-    <!--Link del css de uikit-->
-    <link rel="stylesheet" href="/uikit/css/uikit.min.css" />
-    <!--Link de las fuentes de google-->
-    <!--Link del css personalizado-->
-    <link rel="stylesheet" href="/css/style.css">
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css"
+    />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit-icons.min.js"></script>
   </head>
   <body>
-    <!--Link de JQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!--Link del js de uikit-->
-    <script src="/uikit/js/uikit.min.js"></script>
+    <nav class="uk-navbar-container" uk-navbar>
+      <div class="uk-navbar-left">
+        <ul class="uk-navbar-nav">
+          <li class="uk-active"><a href="#">Active</a></li>
+          <li>
+            <a href="#">Parent</a>
+            <div class="uk-navbar-dropdown">
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li class="uk-active"><a href="#">Active</a></li>
+                <li><a href="#">Item</a></li>
+                <li><a href="#">Item</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">Item</a></li>
+        </ul>
+      </div>
+    </nav>
   </body>
 </html>
