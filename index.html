@@ -1,35 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Caricaturas Web</title>
+    <link rel="stylesheet" href="css/normalize.css" />
     <!-- UIkit CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css"
-    />
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <!--Hoja de Personalizacion-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header></header>
+    <div class="bar"> 
+    <nav class="main-nav container" uk-navbar>
+      <div class="uk-navbar-left">
+        <a class="uk-navbar-item uk-logo" href="#">ToonLife</a>
 
+        <ul class="uk-navbar-nav">
+          <li>
+            <a href="#">
+              <span
+                class="uk-icon uk-margin-small-right"
+                uk-icon="icon: github"
+              ></span>
+              Repositorio
+            </a>
+          </li>
+        </ul>
+
+
+        <div class="uk-navbar-item">
+          <form action="javascript:void(0)">
+            <input
+              class="uk-input uk-form-width-small"
+              type="text"
+              placeholder="Input"
+            />
+            <button class="uk-button uk-button-default">Button</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit-icons.min.js"></script>
-  </head>
-  <body>
-    <nav class="uk-navbar-container" uk-navbar>
-      <div class="uk-navbar-left">
-        <ul class="uk-navbar-nav">
-          <li class="uk-active"><a href="#">Active</a></li>
-          <li>
-            <a href="#">Parent</a>
-            <div class="uk-navbar-dropdown">
-              <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li class="uk-active"><a href="#">Active</a></li>
-                <li><a href="#">Item</a></li>
-                <li><a href="#">Item</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#">Item</a></li>
-        </ul>
-      </div>
-    </nav>
   </body>
 </html>
