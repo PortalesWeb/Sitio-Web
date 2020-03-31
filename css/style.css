@@ -7,9 +7,13 @@ html {
     box-sizing: inherit;
   }
 
-  
+body{
+  font-family: 'Baloo 2', cursive;
+  font-family: 'Titan One', cursive;
+  font-family: 'Bangers', cursive;
+  font-family: 'Press Start 2P', cursive;
+}
 .bar nav{
   background-color: #DE0;
   color: #fff;
-
 }

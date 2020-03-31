@@ -5,3 +5,17 @@ https://www.color-hex.com/color/de0000
 
 Iconos para UIKIT
 https://getuikit.com/docs/icon
+
+Font
+Baloo 2
+Titan one
+
+bangers
+press start2p
+
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Bangers&family=Press+Start+2P&family=Titan+One&display=swap" rel="stylesheet">
+font-family: 'Baloo 2', cursive;
+font-family: 'Titan One', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Press Start 2P', cursive;
