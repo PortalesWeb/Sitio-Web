@@ -36,14 +36,14 @@
             </li>
           </ul>
 
-          <div class="uk-navbar-item">
+          <div class="items uk-navbar-item">
             <form action="javascript:void(0)">
               <input
                 class="uk-input uk-form-width-small"
                 type="text"
                 placeholder="Input"
               />
-              <button class="uk-button uk-button-default">Button</button>
+              <button class="uk-button uk-width-1-2 uk-margin-small-bottom">Button</button>
             </form>
           </div>
         </div>
@@ -51,26 +51,36 @@
     </div>
     <!-- UIkit JS -->
     <main>
-      <article>
-      <div class="container cartoon-list">
-        <div class="cartoon">
-          <div class="cartoon-description">
-            <p class="title">Cartoon Cartoons</p>
-          </div>
-          <img src="img/cartoon.jpg" alt="cartoon image" />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-            scelerisque mauris. Vestibulum ante ipsum primis in faucibus orci
-            luctus et ultrices posuere cubilia Curae; Morbi in neque ut massa
-            euismod porta vitae et lacus. Nam eget nisl a elit bibendum
-            tincidunt. Duis dui quam, bibendum id mauris vitae, aliquet mollis
-            urna. Aenean vitae semper elit. Curabitur id blandit sem.
-          </p>
-        </div>
+      <div
+        onclick="location.href='#';"
+        class="textOverImage"
+        style="cursor: pointer; background-image: url(img/cartoon.jpg)"
+        data-text="Cartoon Network
+      kjfhskjfhsjkf fhsjf skf sdfsdkfjshfk"
+      >
+        <h2 class="GFG">Cartoon Network</h2>
       </div>
-    </article>
+      <div
+      onclick="location.href='#';"
+      class="textOverImage"
+      style="cursor: pointer; background-image: url(img/cartoon.jpg)"
+      data-text="Cartoon Network
+    kjfhskjfhsjkf fhsjf skf sdfsdkfjshfk"
+    >
+      <h2 class="GFG">Cartoon Network</h2>
+    </div>
     </main>
-    <footer></footer>
+    <footer>
+      <li>
+        <a href="#">
+          <span
+            class="uk-icon uk-margin-small-right"
+            uk-icon="icon: github"
+          ></span>
+          Repositorio
+        </a>
+      </li>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit-icons.min.js"></script>
   </body>
