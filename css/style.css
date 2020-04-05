@@ -24,11 +24,13 @@
 .uk-sticky-fixed {
   box-shadow: 0 1px 5px 0 #0e0e0e;
 }
-
 .margin{
   padding: 2em 1em 2em 1em;
 }
-
+li img{
+  width: 100%;
+  background-color: aqua;
+}
 .textOverImage{
   position: relative;
   width: 100%;
