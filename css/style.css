@@ -1,36 +1,38 @@
-html {
-    box-sizing: border-box;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+.uk-navbar-container.uk-light:not(.uk-navbar-transparent):not(.uk-navbar-primary) {
+  height: 6em;
+  background-image: url(../img/Bajo.png);
+  background-size: unset;
+}
 
-body{
-  font-family: 'Baloo 2', cursive;
-  /* font-family: 'Titan One', cursive;
-  font-family: 'Bangers', cursive;
-  font-family: 'Press Start 2P', cursive; */
+#mobile-navbar .uk-offcanvas-bar {
+  box-shadow: 2px 0 5px 0 #0e0e0e;
 }
-.bar nav{
-  background-color: #DE0000;
-  color: #fff;  
+#mobile-navbar li:nth-child(1),
+#mobile-navbar li:nth-child(2),
+#mobile-navbar li:nth-child(3) {
+  border-left: unset;
 }
-.bar nav button{
-  background-color: #f5ce34;
-  border-radius: 3px;
+#mobile-navbar li {
+  padding-left: 5px;
+  border-left: 2px solid transparent;
 }
-img {
-  max-width: 100%;
+#mobile-navbar li.uk-active {
+  padding-left: 5px;
+  border-left: 2px solid #545454;
 }
-p {
-  font-size: 1em;
+
+.uk-sticky-fixed {
+  box-shadow: 0 1px 5px 0 #0e0e0e;
 }
+
+.margin{
+  padding: 2em 1em 2em 1em;
+}
+
 .textOverImage{
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 18em;
   float: left;
   margin: 4px;
   background-size: 100%; 
