@@ -27,9 +27,11 @@
 .margin{
   padding: 2em 1em 2em 1em;
 }
-li img{
+.slide-content img{
+  position: relative;
   width: 100%;
-  background-color: aqua;
+  height: 100%;
+  margin: 0 4px;
 }
 .textOverImage{
   position: relative;
