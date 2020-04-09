@@ -27,6 +27,11 @@
 .margin{
   padding: 2em 1em 2em 1em;
 }
+.button{
+  background-color: #f5ce34;
+  border-radius: 0.3em;
+  margin-top: 20px;
+}
 .slide-content img{
   position: relative;
   width: 100%;
@@ -108,13 +113,6 @@
 .card-container {
   padding: 2px 16px;
 }
-
-.button{
-  background-color: gold;
-  border-radius: 0.3em;
-  margin-top: 20px;
-}
-
 footer{
   align-self: flex-end;
   background-color:  rgba(212, 209, 209, 0.9);
@@ -122,3 +120,49 @@ footer{
   text-align: center;
   width: 100%;
 }
+.login-html
+{
+  background-color: #DE0000;
+  background-image: url(../img/toon.png);
+  background-size: 50% ;
+  background-position:center 520px;
+  background-repeat:no-repeat;
+}
+.login-hero {
+  height: 28.165em;
+  background-image: url(../img/Cartoons.jpg);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-hero::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.35);
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  padding-bottom: 2em;
+  text-align: center;
+}
+.login-button{
+  background-color: #f5ce34;
+  border-radius: 0.3em;
+  margin-top: 20px;
+}
+.login-button:hover{
+  background-color: #e9c303;
+  transition: 1s;
+  box-shadow: 0 7px 5px 0 rgba(0, 0, 0, 0.24),
+  0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  z-index: 3;
+}
+
