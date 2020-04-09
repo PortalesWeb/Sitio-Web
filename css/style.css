@@ -110,6 +110,10 @@
 }
 
 .inicio{
-  background-color: gold;
-  color: #fff;
+  background-size: 0.25em;
+  background-color: gold; 
+}
+
+.uk-button .uk-button-primary .uk-button-large .uk-width-1-1{
+  background-color: red;
 }
