@@ -3,9 +3,7 @@
   background-image: url(../img/Bajo.png);
   background-size: unset;
 }
-.uk-section .uk-section-muted .uk-flex .uk-flex-middle .uk-animation-fade{
-  background-color: darkred;
-}
+
 #mobile-navbar .uk-offcanvas-bar {
   box-shadow: 2px 0 5px 0 #0e0e0e;
 }
@@ -113,5 +111,5 @@
 
 .inicio{
   background-color: gold;
-  
+  color: #fff;
 }
