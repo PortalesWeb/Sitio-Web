@@ -110,6 +110,14 @@
 }
 
 .inicio{
-  background-size: 0.25em;
+  background-size: 200px;
   background-color: gold; 
+}
+
+footer{
+  align-self: flex-end;
+  background-color:  rgba(212, 209, 209, 0.9);
+  line-height: 3;
+  text-align: center;
+  width: 100%;
 }
