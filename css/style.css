@@ -234,10 +234,13 @@ footer{
 
 .footer .footer-content .links ul a{
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-size: 1em;
+  transition: all .3s;
 }
 
 .footer .footer-content .links ul a:hover{
-  
+  color: white;
+  margin-left: 15px;
+  transition: all .3s;
 }
