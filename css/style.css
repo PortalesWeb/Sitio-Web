@@ -225,8 +225,6 @@ footer{
 }
 
 .footer .footer-content .about .socials a:hover{
-  border: 1px solid white;
-  color: white;
   transition:all .3s;
 }
 
@@ -254,6 +252,14 @@ footer{
 
 .footer .footer-content .contact-form .contact-input:focus{
   background: white;
+}
+
+.footer .footer-content .footer-section a{
+  color: black;
+}
+
+.footer .footer-content .footer-section h2{
+  color: black;
 }
 
 .text-input{
