@@ -175,14 +175,12 @@ footer{
 }
 
 .footer .footer-content{
-  border: 1px solid red;
   height: 350px;
   display: flex;
 }
 
 .footer .footer-content .footer-section{
   flex: 1;
-  border: 1px solid black;
   padding: 25px;
 }
 
@@ -282,5 +280,8 @@ footer{
 .btn-big{
   padding: .7rem 1.3rem;
   line-height: 1.3rem;
-  
+}
+
+.footer .footer-content .contact-form .contact-btn{
+  float: right;
 }
