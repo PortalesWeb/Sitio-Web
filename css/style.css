@@ -244,3 +244,43 @@ footer{
   margin-left: 15px;
   transition: all .3s;
 }
+
+.footer .footer-content .contact-form .contact-input{
+  background: gainsboro;
+  color: black;
+  margin-bottom: 10px;
+  line-height: 1.5rem;
+  padding: .9rem .1.4rem;
+  border: none;
+}
+
+.footer .footer-content .contact-form .contact-input:focus{
+  background: white;
+}
+
+.text-input{
+  padding: .7rem 1rem;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.btn{
+  padding: .5rem 1rem;
+  background: grey;
+  color: white;
+  border:1px solid transparent;
+  border-radius: .25rem;
+}
+
+.btn:hover{
+  color: black;
+  background: whitesmoke;
+}
+
+.btn-big{
+  padding: .7rem 1.3rem;
+  line-height: 1.3rem;
+  
+}
