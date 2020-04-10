@@ -183,6 +183,7 @@ footer{
 .footer .footer-content .footer-section{
   flex: 1;
   border: 1px solid black;
+  padding: 25px;
 }
 
 .footer .footer-bottom{
@@ -196,3 +197,4 @@ footer{
   left: 0px;
   padding-top: 20px;
 }
+
