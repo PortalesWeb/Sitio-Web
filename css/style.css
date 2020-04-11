@@ -24,63 +24,63 @@
 .uk-sticky-fixed {
   box-shadow: 0 1px 5px 0 #0e0e0e;
 }
-.margin{
+.margin {
   padding: 2em 1em 2em 1em;
 }
-.button{
+.button {
   background-color: #f5ce34;
   border-radius: 0.3em;
   margin-top: 20px;
 }
-.slide-content img{
+.slide-content img {
   position: relative;
   width: 100%;
   height: 100%;
   margin: 0 4px;
 }
-.textOverImage{
+.textOverImage {
   position: relative;
   width: 100%;
   height: 18em;
   float: left;
   margin: 4px;
-  background-size: 100%; 
+  background-size: 100%;
   background-position: center;
-  transition: 0.5s;     
+  transition: 0.5s;
 }
-.textOverImage:hover{
+.textOverImage:hover {
   background-size: 110%;
 }
-.textOverImage::after{
+.textOverImage::after {
   position: absolute;
-  top:100%;
-  bottom:0;
-  left:0;
-  right:0;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
   white-space: pre-wrap;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.3);
-  color:#fff;
-  padding:0 8px;
-  opacity:0;
+  color: #fff;
+  padding: 0 8px;
+  opacity: 0;
   content: attr(data-text);
   transition: 0.5s;
 }
 
-.textOverImage:hover:after{
- opacity:1; 
- top:0;
- padding:8px;
- margin-top: 50%; 
+.textOverImage:hover:after {
+  opacity: 1;
+  top: 0;
+  padding: 8px;
+  margin-top: 50%;
 }
-.textOverImage:first-line{
-  color:#fff;
-  font-weight:bold;
-  font-size:1.5em;
+.textOverImage:first-line {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5em;
 }
-.GFG { 
+.GFG {
   text-shadow: 0 0 4px #000, 0 0 6px darkgray;
-} 
+}
 .container {
   margin: 0 auto;
   max-width: 1200px;
@@ -106,27 +106,26 @@
   flex-direction: column;
   align-items: center;
   background-color: #fff;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   margin-left: 15px;
 }
 .card-container {
   padding: 2px 16px;
 }
-footer{
+footer {
   align-self: flex-end;
-  background-color:  rgba(212, 209, 209, 0.9);
+  background-color: rgba(212, 209, 209, 0.9);
   line-height: 3;
   text-align: center;
   width: 100%;
 }
-.login-html
-{
-  background-color: #DE0000;
+.login-html {
+  background-color: #de0000;
   background-image: url(../img/toon.png);
-  background-size: 50% ;
-  background-position:center 520px;
-  background-repeat:no-repeat;
+  background-size: 50%;
+  background-position: center 520px;
+  background-repeat: no-repeat;
 }
 .login-hero {
   height: 28.165em;
@@ -153,38 +152,37 @@ footer{
   padding-bottom: 2em;
   text-align: center;
 }
-.login-button{
+.login-button {
   background-color: #f5ce34;
   border-radius: 0.3em;
   margin-top: 20px;
 }
-.login-button:hover{
+.login-button:hover {
   background-color: #e9c303;
   transition: 1s;
-  box-shadow: 0 7px 5px 0 rgba(0, 0, 0, 0.24),
-  0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 7px 5px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   z-index: 3;
 }
 
 /*Footer*/
-.footer{
+.footer {
   background: rgba(212, 209, 209, 0.9);
   color: black;
   height: 400px;
   position: relative;
 }
 
-.footer .footer-content{
+.footer .footer-content {
   height: 350px;
   display: flex;
 }
 
-.footer .footer-content .footer-section{
+.footer .footer-content .footer-section {
   flex: 1;
   padding: 25px;
 }
 
-.footer .footer-bottom{
+.footer .footer-bottom {
   background: rgba(209, 209, 209, 1);
   color: black;
   height: 25px;
@@ -201,17 +199,17 @@ footer{
   color: white;
 }
 
-.footer .footer-content .about h1 span{
-  color:red;
+.footer .footer-content .about h1 span {
+  color: red;
 }
 
-.footer .footer-content .about .contact span{
+.footer .footer-content .about .contact span {
   display: block;
   font-size: 1.1em;
   margin-bottom: 8px;
 }
 
-.footer .footer-content .about .socials a{
+.footer .footer-content .about .socials a {
   border: 1px solid rgba(209, 209, 209, 1);
   width: 45px;
   height: 41px;
@@ -221,73 +219,73 @@ footer{
   display: inline-block;
   font-size: 1.3em;
   border-radius: 5px;
-  transition:all .3s;
+  transition: all 0.3s;
 }
 
-.footer .footer-content .about .socials a:hover{
-  transition:all .3s;
+.footer .footer-content .about .socials a:hover {
+  transition: all 0.3s;
 }
 
-.footer .footer-content .links ul a{
+.footer .footer-content .links ul a {
   display: block;
   margin-bottom: 5px;
   font-size: 1em;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-.footer .footer-content .links ul a:hover{
+.footer .footer-content .links ul a:hover {
   color: white;
   margin-left: 15px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-.footer .footer-content .contact-form .contact-input{
+.footer .footer-content .contact-form .contact-input {
   background: gainsboro;
   color: black;
   margin-bottom: 10px;
   line-height: 1.5rem;
-  padding: .9rem .1.4rem;
+  padding: 0.9rem 0.1.4rem;
   border: none;
 }
 
-.footer .footer-content .contact-form .contact-input:focus{
+.footer .footer-content .contact-form .contact-input:focus {
   background: white;
 }
 
-.footer .footer-content .footer-section a{
+.footer .footer-content .footer-section a {
   color: black;
 }
 
-.footer .footer-content .footer-section h2{
+.footer .footer-content .footer-section h2 {
   color: black;
 }
 
-.text-input{
-  padding: .7rem 1rem;
+.text-input {
+  padding: 0.7rem 1rem;
   display: block;
   width: 100%;
   border-radius: 5px;
   border: 1px solid white;
 }
 
-.btn{
-  padding: .5rem 1rem;
+.btn {
+  padding: 0.5rem 1rem;
   background: grey;
   color: white;
-  border:1px solid transparent;
-  border-radius: .25rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
 }
 
-.btn:hover{
+.btn:hover {
   color: black;
   background: whitesmoke;
 }
 
-.btn-big{
-  padding: .7rem 1.3rem;
+.btn-big {
+  padding: 0.7rem 1.3rem;
   line-height: 1.3rem;
 }
 
-.footer .footer-content .contact-form .contact-btn{
+.footer .footer-content .contact-form .contact-btn {
   float: right;
 }
