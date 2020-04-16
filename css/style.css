@@ -409,17 +409,39 @@
   /* background-image: url(../img/slider/descarga.png); */
   min-height: 100%;  
 }
+.bgimg-3 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover 20px;
+ z-index: 1; 
+
+}
+.bgimg-3 {
+  
+  min-height: 100%;
+ 
+}
+.bgimg-3 {
+  width: 1250px;
+  height: 400px;
+}
 
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1 {
     background-attachment: scroll;
   }
+  .bgimg-3 {
+    background-attachment: scroll;
+  }
 }
 
 .caption {
-  width: 100%;
+  width: 200px;
   height: 350px;
   margin: 0 4px;
+  z-index: 0;
 }
 .video-responsive {
   position: relative;
