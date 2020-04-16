@@ -409,6 +409,8 @@
   /* background-image: url(../img/slider/descarga.png); */
   min-height: 100%;  
 }
+<<<<<<< HEAD
+=======
 .bgimg-3 {
   position: relative;
   background-attachment: fixed;
@@ -427,11 +429,20 @@
   width: 1250px;
   height: 400px;
 }
+>>>>>>> developCamila
 
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1 {
     background-attachment: scroll;
   }
+<<<<<<< HEAD
+}
+
+.caption {
+  width: 100%;
+  height: 350px;
+  margin: 0 4px;
+=======
   .bgimg-3 {
     background-attachment: scroll;
   }
@@ -442,6 +453,7 @@
   height: 350px;
   margin: 0 4px;
   z-index: 0;
+>>>>>>> developCamila
 }
 .video-responsive {
   position: relative;
@@ -483,4 +495,19 @@
       margin:auto;    
   }
 
+<<<<<<< HEAD
+=======
+  }
+
+  p{
+    text-align: justify;
+  }
+  .exampleimage{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .nameWritter{
+    text-align: center;
+>>>>>>> developCamila
   }
