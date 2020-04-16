@@ -291,3 +291,28 @@ footer{
 .footer .footer-content .contact-form .contact-btn{
   float: right;
 }
+
+.bgimg-1 {
+  position: relative;
+  background-attachment: local;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: Contain;
+  
+}
+.bgimg-1 {
+  background-image: url(../img/slider/descarga.png);
+  min-height: 100%;  
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1 {
+    background-attachment: scroll;
+  }
+}
+
+.caption {
+  width: 100%;
+  height: 350px;
+  margin: 0 4px;
+}
