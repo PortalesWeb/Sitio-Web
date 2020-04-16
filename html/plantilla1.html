@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nombre Seccion</title>
+
+    <!--Css normalize-->
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css"
+    />
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+    <!--Css personalizado-->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+      <!-- barra nave -->
+    <div class="uk-offcanvas-content">
+      <nav
+        class="uk-navbar-container uk-light"
+        uk-navbar="mode: click"
+        uk-sticky="animation: uk-animation-slide-top; show-on-up: true"
+      >
+        <div class="uk-navbar-left nav-overlay">
+          <a class="uk-navbar-item uk-logo" href="#">
+            <img src="../img/toon.png" alt="logo" width="200"
+          /></a>
+        </div>
+
+        <div class="uk-navbar-right nav-overlay">
+          <div class="uk-navbar-flip">
+            <ul class="uk-navbar-nav uk-visible@s">
+              <li class="uk-active"><a href="#">Item 1</a></li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
+              <li><a href="#">Item 4</a></li>
+              <li>
+                <button
+                  onclick="location.href='../html/login.html';"
+                  class="uk-button button"
+                >
+                  Iniciar Sesion
+                </button>
+              </li>
+            </ul>
+            <ul class="uk-navbar-nav uk-hidden@s">
+              <li>
+                <a
+                  class="uk-navbar-toggle"
+                  uk-navbar-toggle-icon
+                  uk-toggle="target: #mobile-navbar"
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="mobile-navbar" uk-offcanvas="mode: slide; flip: false">
+        <div class="uk-offcanvas-bar">
+          <button class="uk-offcanvas-close" type="button" uk-close></button>
+          <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+            <li class="uk-text-center" style="padding: 0 0 25px 0;">
+              <a href="#">
+                <img src="../img/toon.png" alt="logo" width="120"
+              /></a>
+            </li>
+            <li>
+              <hr />
+            </li>
+            <li class="uk-text-center">
+              <h3>Menu</h3>
+            </li>
+            <li class="uk-active"><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+            <li><a href="#">Item 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h1 class="logo-text"><span>TOONLIFE</span></h1>
+          <p>
+            el lugar donde los fanaticos encontramos todo sobre la historia de
+            tus caricaturas favoritas de los años 70,80,90 hasta el presente en
+            un solo lugar ToonLife
+          </p>
+          <div class="contact">
+            <span
+              ><i class="uk-icon-link" uk-icon="mail"></i>
+              &nbsp;toonlifehn@gmail.com</span
+            >
+            <span
+              ><i class="uk-icon-link" uk-icon="phone"></i>
+              &nbsp;504-234-342-879</span
+            >
+          </div>
+          <div class="socials">
+            <a href="#"><i class="uk-icon-link" uk-icon="facebook"></i></a>
+            <a href="#"><i class="uk-icon-link" uk-icon="twitter"></i></a>
+            <a href="#"><i class="uk-icon-link" uk-icon="instagram"></i></a>
+            <a href="#"><i class="uk-icon-link" uk-icon="youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-section links">
+          <h2>Acessos Rapidos</h2>
+          <br />
+          <ul>
+            <a href="#"><li>Eventos</li></a>
+            <a href="#"><li>Cartoon Network</li></a>
+            <a href="#"><li>Disney</li></a>
+            <a href="#"><li>MTV</li></a>
+            <a href="#"><li>Hanna Barbera</li></a>
+            <a href="#"><li>Fox</li></a>
+          </ul>
+        </div>
+        <div class="footer-section contact-form">
+          <h2>Contactanos</h2>
+          <br />
+          <form action="index.html" method="post">
+            <input
+              type="email"
+              name="email"
+              class="text-input contact-input"
+              placeholder="Tu direccion de E-Mail.."
+            />
+            <textarea
+              name="message"
+              class="text-input contact-input"
+              placeholder="Escribe tu mensaje..."
+            ></textarea>
+            <button type="uk-bottom" class="btn btn-big contact-btn">
+              <i class="uk-icon-link" uk-icon="mail"></i>
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; ToonLife.com
+      </div>
+    </div>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit-icons.min.js"></script>
+  </body>
+</html>
