@@ -484,3 +484,15 @@
   }
 
   }
+
+  p{
+    text-align: justify;
+  }
+  .exampleimage{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .nameWritter{
+    text-align: center;
+  }
