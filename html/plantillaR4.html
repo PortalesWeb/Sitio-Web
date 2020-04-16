@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ToonLife</title>
+
+    <!--Css normalize-->
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css"
+    />
+    <link rel="stylesheet" href="css/uikit.docs.min.css" />
+    <!--Css personalizado-->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <!-- barra nave -->
+    <div class="uk-offcanvas-content">
+      <nav
+        class="uk-navbar-container uk-light"
+        uk-navbar="mode: click"
+        uk-sticky="animation: uk-animation-slide-top; show-on-up: true"
+      >
+        <div class="uk-navbar-left nav-overlay">
+          <a class="uk-navbar-item uk-logo" href="#">
+            <img src="../img/toon.png" alt="logo" width="200"
+          /></a>
+        </div>
+
+        <div class="uk-navbar-right nav-overlay">
+          <div class="uk-navbar-flip">
+            <ul class="uk-navbar-nav uk-visible@s">
+              <li class="uk-active"><a href="#">Populares</a></li>
+              <li><a href="#">Historia</a></li>
+              <li><a href="#">Comunidad</a></li>
+              <li><a href="#">Noticias</a></li>
+              <li>
+                <button
+                  onclick="location.href='../html/login.html';"
+                  class="uk-button button"
+                >
+                  Iniciar Sesion
+                </button>
+              </li>
+            </ul>
+            <ul class="uk-navbar-nav uk-hidden@s">
+              <li>
+                <a
+                  class="uk-navbar-toggle"
+                  uk-navbar-toggle-icon
+                  uk-toggle="target: #mobile-navbar"
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="mobile-navbar" uk-offcanvas="mode: slide; flip: false">
+        <div class="uk-offcanvas-bar">
+          <button class="uk-offcanvas-close" type="button" uk-close></button>
+          <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+            <li class="uk-text-center" style="padding: 0 0 25px 0;">
+              <a href="#">
+                <img src="../img/toon.png" alt="logo" width="120"
+              /></a>
+            </li>
+            <li>
+              <hr />
+            </li>
+            <li class="uk-text-center">
+              <h3>Menu</h3>
+            </li>
+            <li class="uk-active"><a href="#">Populares</a></li>
+            <li><a href="#">Historia</a></li>
+            <li><a href="#">Comunidad</a></li>
+            <li><a href="#">Noticias</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- centro -->
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid" data-uk-grid-margin>
+        <div class="uk-width-medium-3-4">
+          <article class="uk-article">
+            <div class="uk-width-medium-3-4">
+              <div
+                class="bgimg-1"
+                style="background-image: url(../img/familyguypic.jpg);"
+              >
+                <div class="caption"></div>
+              </div>
+              <div class="uk-width-medium-1-4">
+                <h1 class="uk-article-title">Padre de Familia</h1>
+                <p>
+                  una serie de televisión animada estadounidense dirigida al
+                  público adulto, creada por el director, guionista y cantante
+                  Seth MacFarlane el 31 de enero de 1999. La serie se centra en
+                  los Griffin, una familia disfuncional cuyos componentes son:
+                  los padres Peter y Lois; sus hijos Meg, Chris, y Stewie; y su
+                  perro antropomorfo Brian. La serie está situada en la ciudad
+                  ficticia de Quahog, Rhode Island.
+                  <br /><br />
+
+                  La serie fue creada por MacFarlane tras haber hecho dos
+                  cortometrajes The Life of Larry y Larry & Steve. MacFarlane
+                  rediseñó los protagonistas de los cortos hechos por él; Larry
+                  y su perro Steve, llamándolos Peter y Brian, respectivamente.
+                  MacFarlane entregó un piloto de 15 minutos a Fox que lo emitió
+                  el 20 de diciembre de 1998. Después de la emisión del piloto
+                  la serie recibió luz verde y comenzó su producción. Poco
+                  después de terminar la tercera temporada de Padre de familia
+                  en 2001, Fox canceló la serie, pero debido a la demanda del
+                  público y el incremento de las ventas de los DVD más las
+                  reposiciones en Adult Swim, la serie volvió en 2004
+                  convenciendo a la cadena de que reemitieran la serie.
+                </p>
+              </div>
+            </div>
+
+            <h2>Historia</h2>
+            <img src="../img/familyguylogo.png" alt="logo familyguy" />
+            <br /><br />
+            <p>
+              adre de familia se creó en 1999 tras (su predecesora) Larry Shorts
+              atrayendo la atención de Fox durante los anuncios en la Super Bowl
+              de 1999. Se anunció su cancelación, pero un cambio en la dirección
+              de la cadena y las demandas del público les hicieron reconsiderar
+              su postura, reanudándose en la tercera temporada, tras el final de
+              la temporada, la serie fue cancelada de nuevo. Las reposiciones en
+              Adult Swim impulsaron el interés de que el programa continuase,
+              más los beneficios en las ventas de los DVD en un año (2.2
+              millones de copias al año) renovaron el interés de la cadena.
+              <br /><br />
+
+              Padre de familia volvió a la producción en 2004 produciéndose
+              cuatro temporadas más (de un total de siete) y una película
+              directa en DVD titulada Stewie Griffin: The Untold Story. La serie
+              celebró oficialmente el episodio 100 durante la sexta temporada en
+              otoño de 2007, consiguiente a la sindicación de la serie.
+              Actualmente, la serie tiene contratada hasta 2017 la producción de
+              nuevos episodios.
+            </p>
+
+            <div>
+              <h2>Trama</h2>
+              <p>
+                En la mayoría de episodios, la trama es interrumpida por al
+                menos un sketch denominado flashback aleatorio. El segmento a
+                veces guarda alguna relación con el argumento del episodio y
+                contiene una referencia cultural. La mayoría de ellos, están
+                interpretados por artistas invitados, a veces mediante rodaje en
+                imagen real, incluyendo apariciones de Conway Twitty en tres
+                episodios, Will Ferrell en Jungle Love y ocasionalmente mediante
+                una combinación de imagen real con animación. Un ejemplo sería
+                un baile de claqué entre Stewie y Gene Kelly en Road to Rupert.
+                Algunos sketches han sido criticados duramente, bien por la
+                crítica o por otros dibujantes, quienes comentan que la serie se
+                centra demasiado en los flashbacks aleatorios en lugar del
+                recurrente humor de la trama.
+              </p>
+              <h2>Peter es DeadPool</h2>
+              <div class="delimitador">
+                <div class="contenedor">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/DlJbquSXBbo"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="uk-width-medium-1-4">
+          <div class="uk-panel uk-panel-box uk-text-center">
+            <img
+              class="uk-border-circle"
+              width="120"
+              height="120"
+              src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjQsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTIwcHgiIGhlaWdodD0iMTIwcHgiIHZpZXdCb3g9IjAgMCAxMjAgMTIwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMjAgMTIwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxyZWN0IGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIi8+DQo8Zz4NCgk8cGF0aCBmaWxsPSIjRTBFMEUwIiBkPSJNMTA5LjM1NCw5OS40NzhjLTAuNTAyLTIuODA2LTEuMTM4LTUuNDA0LTEuOTAzLTcuODAxYy0wLjc2Ny0yLjM5Ny0xLjc5Ny00LjczMi0zLjA5My03LjAxMQ0KCQljLTEuMjk0LTIuMjc2LTIuNzc4LTQuMjE3LTQuNDU1LTUuODIzYy0xLjY4MS0xLjYwNC0zLjcyOS0yLjg4Ny02LjE0OC0zLjg0NmMtMi40MjEtMC45NTgtNS4wOTQtMS40MzgtOC4wMTctMS40MzgNCgkJYy0wLjQzMSwwLTEuNDM3LDAuNTE2LTMuMDIsMS41NDVjLTEuNTgxLDEuMDMyLTMuMzY3LDIuMTgyLTUuMzU1LDMuNDVjLTEuOTksMS4yNzEtNC41NzgsMi40MjEtNy43NjUsMy40NTENCgkJQzY2LjQxLDgzLjAzNyw2My4yMSw4My41NTIsNjAsODMuNTUyYy0zLjIxMSwwLTYuNDEtMC41MTUtOS41OTgtMS41NDZjLTMuMTg4LTEuMDMtNS43NzctMi4xODEtNy43NjUtMy40NTENCgkJYy0xLjk5MS0xLjI2OS0zLjc3NC0yLjQxOC01LjM1NS0zLjQ1Yy0xLjU4Mi0xLjAyOS0yLjU4OC0xLjU0NS0zLjAyLTEuNTQ1Yy0yLjkyNiwwLTUuNTk4LDAuNDc5LTguMDE3LDEuNDM4DQoJCWMtMi40MiwwLjk1OS00LjQ3MSwyLjI0MS02LjE0NiwzLjg0NmMtMS42ODEsMS42MDYtMy4xNjQsMy41NDctNC40NTgsNS44MjNjLTEuMjk0LDIuMjc4LTIuMzI2LDQuNjEzLTMuMDkyLDcuMDExDQoJCWMtMC43NjcsMi4zOTYtMS40MDIsNC45OTUtMS45MDYsNy44MDFjLTAuNTAyLDIuODAzLTAuODM5LDUuNDE1LTEuMDA2LDcuODM1Yy0wLjE2OCwyLjQyMS0wLjI1Miw0LjkwMi0wLjI1Miw3LjQ0DQoJCWMwLDEuODg0LDAuMjA3LDMuNjI0LDAuNTgyLDUuMjQ3aDEwMC4wNjNjMC4zNzUtMS42MjMsMC41ODItMy4zNjMsMC41ODItNS4yNDdjMC0yLjUzOC0wLjA4NC01LjAyLTAuMjUzLTcuNDQNCgkJQzExMC4xOTIsMTA0Ljg5MywxMDkuODU3LDEwMi4yOCwxMDkuMzU0LDk5LjQ3OHoiLz4NCgk8cGF0aCBmaWxsPSIjRTBFMEUwIiBkPSJNNjAsNzguMTZjNy42MiwwLDE0LjEyNi0yLjY5NiwxOS41Mi04LjA4OGM1LjM5Mi01LjM5Myw4LjA4OC0xMS44OTgsOC4wODgtMTkuNTE5DQoJCXMtMi42OTYtMTQuMTI2LTguMDg4LTE5LjUxOUM3NC4xMjYsMjUuNjQzLDY3LjYyLDIyLjk0Niw2MCwyMi45NDZzLTE0LjEyOCwyLjY5Ny0xOS41MTksOC4wODkNCgkJYy01LjM5NCw1LjM5Mi04LjA4OSwxMS44OTctOC4wODksMTkuNTE5czIuNjk1LDE0LjEyNiw4LjA4OSwxOS41MTlDNDUuODcyLDc1LjQ2NCw1Mi4zOCw3OC4xNiw2MCw3OC4xNnoiLz4NCjwvZz4NCjwvc3ZnPg0K"
+              alt=""
+            />
+            <h3>Rudy Rosa</h3>
+            <p>
+              Programador y Fanático de Dibujos
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer id="footer" class="footer-distributed">
+      <div>
+        <img src="../img/toon.png" alt="logo" width="200" class="image-foot" />
+      </div>
+
+      <div class="footer-left">
+        <h2>Acessos Rapidos</h2>
+        <br />
+        <ul>
+          <a href="#"><li>Eventos</li></a>
+          <a href="#"><li>Cartoon Network</li></a>
+          <a href="#"><li>Disney</li></a>
+          <a href="#"><li>MTV</li></a>
+          <a href="#"><li>Hanna Barbera</li></a>
+          <a href="#"><li>Fox</li></a>
+        </ul>
+      </div>
+
+      <div></div>
+      <div class="footer-right">
+        <h2>Contactanos</h2>
+        <br />
+        <div class="contact">
+          <span
+            ><i class="uk-icon-link" uk-icon="mail"></i>
+            &nbsp;toonlifehn@gmail.com</span
+          >
+          <span
+            ><i class="uk-icon-link" uk-icon="phone"></i>
+            &nbsp;504-234-342-879</span
+          >
+          <div class="footer-icons">
+            <a href="#"><i class="uk-icon-link" uk-icon="facebook"></i></a>
+            <a href="#"><i class="uk-icon-link" uk-icon="twitter"></i></a>
+            <a href="#"><i class="uk-icon-link" uk-icon="instagram"></i></a>
+            <a href="#"><i class="uk-icon-link" uk-icon="youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- UIkit JS -->
+    <script src="../js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit-icons.min.js"></script>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+    <script src="../js/jquery.js"></script>
+  </body>
+</html>
